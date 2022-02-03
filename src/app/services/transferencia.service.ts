@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
 export class TransferenciaService {
 
   private listaTransferencias: any[];
-  private url = 'http://localhost:3000/transferencias'
+  private url = 'http://localhost:8080/transferencias'
 
 
   constructor(private httpClient: HttpClient) {
